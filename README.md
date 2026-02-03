@@ -18,7 +18,7 @@ TOPSIS-NAVDEEP-102303787
 
 ## Installation
 Install the package from PyPI using pip:
-pip install TOPSIS-ANSHIKA-102303042
+pip install TOPSIS-navdeep-102303787
 
 ---
 
