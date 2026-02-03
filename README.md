@@ -13,13 +13,14 @@ This package can be used directly from the **command line** after installation.
 
 ## Package Name
 
-pip install topsis-navdeep-102303787
+topsis-navdeep-102303787
 
 ---
 
 ## Installation
 Install the package from PyPI using pip:
-pip install TOPSIS-ANSHIKA-102303042
+pip install topsis-navdeep-102303787
+
 
 ---
 
