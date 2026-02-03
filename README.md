@@ -12,18 +12,21 @@ This package can be used directly from the **command line** after installation.
 ---
 
 ## Package Name
-TOPSIS-NAVDEEP-102303787
+
+pip install topsis-navdeep-102303787
 
 ---
 
 ## Installation
 Install the package from PyPI using pip:
-pip install TOPSIS-navdeep-102303787
+pip install TOPSIS-ANSHIKA-102303042
 
 ---
 
 ## Usage (Command Line)
+```bash
 topsis <InputDataFile> <Weights> <Impacts> <OutputResultFile>
+```
 
 ---
 
@@ -66,35 +69,13 @@ Higher score indicates a better alternative.
 
 ---
 
-##  Error Handling
-The package checks for:
-- Incorrect number of arguments
-- File not found errors
-- Non-numeric values in criteria columns
-- Mismatch in number of weights and impacts
-- Invalid impact values (only `+` or `-` allowed)
-
----
 ## Webserivce link
 [TOPSIS Web Service](http://127.0.0.1:5000)
 
 ![TOPSIS Web Service Screenshot](screenshot.png)
 
-##  Dependencies
-- Python 3.x
-- Pandas
-- NumPy
 
----
 
 ##  Conclusion
 This package provides a simple and effective way to perform TOPSIS analysis using Python.
 It is useful for decision-making problems involving multiple criteria.
-
-
-
-
-
-
-
-
