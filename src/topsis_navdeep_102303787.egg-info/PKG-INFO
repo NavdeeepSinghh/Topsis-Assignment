@@ -1,0 +1,113 @@
+Metadata-Version: 2.4
+Name: topsis-navdeep-102303787
+Version: 0.0.5
+Summary: TOPSIS implementation using Python
+Author: Navdeep Singh
+Author-email: navdeep@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: numpy
+Dynamic: license-file
+
+# Topsis-Navdeep-102303787
+
+## Overview
+This package implements the **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)**
+method using Python.
+
+TOPSIS is a multi-criteria decision-making technique used to rank alternatives based on their
+distance from an ideal best and an ideal worst solution.
+
+This package can be used directly from the **command line** after installation.
+
+---
+
+## Package Name
+TOPSIS-NAVDEEP-102303787
+
+---
+
+## Installation
+Install the package from PyPI using pip:
+pip install TOPSIS-ANSHIKA-102303042
+
+---
+
+## Usage (Command Line)
+topsis <InputDataFile> <Weights> <Impacts> <OutputResultFile>
+
+---
+
+### Example
+topsis data.csv "1,1,1,2" "+,+,-,+" result.csv
+
+---
+
+## 📥 Input File Format
+- The input file must be in **CSV format**
+- The **first column** should contain names of alternatives
+- Remaining columns should contain **numeric values only**
+- Minimum **3 columns** are required
+
+### Sample Input
+Fund Name,P1,P2,P3,P4
+M1,0.67,0.45,6.5,42.6
+M2,0.60,0.36,3.6,53.3
+M3,0.82,0.67,3.8,63.1
+
+---
+
+## 📤 Output File Format
+The output file is a CSV file containing:
+- **Topsis Score** – relative closeness to the ideal solution
+- **Rank** – ranking based on TOPSIS score
+
+Higher score indicates a better alternative.
+
+---
+
+##  Methodology (Brief)
+1. Read input data from CSV file
+2. Normalize the decision matrix
+3. Apply weights to the normalized matrix
+4. Determine ideal best and ideal worst values
+5. Calculate distance from ideal best and worst
+6. Compute TOPSIS score
+7. Rank alternatives based on the score
+
+---
+
+##  Error Handling
+The package checks for:
+- Incorrect number of arguments
+- File not found errors
+- Non-numeric values in criteria columns
+- Mismatch in number of weights and impacts
+- Invalid impact values (only `+` or `-` allowed)
+
+---
+
+##  Dependencies
+- Python 3.x
+- Pandas
+- NumPy
+
+---
+
+##  Conclusion
+This package provides a simple and effective way to perform TOPSIS analysis using Python.
+It is useful for decision-making problems involving multiple criteria.
+
+
+
+
+
+
+
+

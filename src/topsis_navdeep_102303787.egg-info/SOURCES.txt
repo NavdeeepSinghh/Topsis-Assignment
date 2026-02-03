@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/topsis_navdeep/__init__.py
+src/topsis_navdeep/topsis.py
+src/topsis_navdeep_102303787.egg-info/PKG-INFO
+src/topsis_navdeep_102303787.egg-info/SOURCES.txt
+src/topsis_navdeep_102303787.egg-info/dependency_links.txt
+src/topsis_navdeep_102303787.egg-info/entry_points.txt
+src/topsis_navdeep_102303787.egg-info/requires.txt
+src/topsis_navdeep_102303787.egg-info/top_level.txt
