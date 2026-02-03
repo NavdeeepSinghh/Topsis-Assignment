@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Topsis Web Service</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; padding-top: 50px; }
+        .form-container { border: 1px solid #ccc; padding: 20px; width: 400px; }
+        .form-group { margin-bottom: 15px; display: flex; justify-content: space-between; align-items: center; }
+        input { width: 200px; padding: 5px; }
+        button { background-color: orange; border: 1px solid #888; padding: 5px 20px; cursor: pointer; display: block; margin: 0 auto; }
+    </style>
+</head>
+<body>
+    <h2>Develop a web service for Topsis</h2>
+    <div class="form-container">
+        <form action="/calculate" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>File Name</label>
+                <input type="file" name="file" accept=".csv" required>
+            </div>
+            <div class="form-group">
+                <label>Weights</label>
+                <input type="text" name="weights" placeholder="1,1,1,1" required>
+            </div>
+            <div class="form-group">
+                <label>Impacts</label>
+                <input type="text" name="impacts" placeholder="+ ,+ ,- ,+" required>
+            </div>
+            <div class="form-group">
+                <label>Email Id</label>
+                <input type="email" name="email" placeholder="psrana@gmail.com" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
